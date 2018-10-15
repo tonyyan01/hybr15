@@ -3,7 +3,6 @@
     "extensions": [
         "modeltacceleratorservices",
         "electronicsstore",
-        "privacyoverlayeraddon",
         "yacceleratorstorefront",
         "backoffice"
     ],
@@ -22,18 +21,6 @@
             "key": "test.property.2",
             "value": "test.property.2.value.in.prod.only",
             "persona": "production"
-        }
-    ],
-    "storefrontAddons": [
-        {
-            "addon": "privacyoverlayeraddon",
-            "storefront": "albinostorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "albinoaddon",
-            "storefront": "albinostorefront",
-            "template": "yacceleratorstorefront"
         }
     ],
      "aspects": [
@@ -118,15 +105,5 @@
                 }
             ]
         }
-    ],
-    "tests": {
-        "extensions": ["privacyoverlayeraddon",
-        "yacceleratorstorefront"],
-        "annotations": ["UnitTests", "IntegrationTests"],
-        "packages": ["de.hybris.infra.*"]
-    },
-    "webTests": {
-        "extensions": ["yacceleratorstorefront"],
-        "excludedPackages": ["de.hybris.platform.*"]
-    }
+    ]
 }

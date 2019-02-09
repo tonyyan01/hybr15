@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion": "18.11.1",
+    "commerceSuiteVersion": "1811.1",
     "extensions": [
         "yacceleratorstorefront",
         "backoffice",

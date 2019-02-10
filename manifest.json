@@ -54,8 +54,6 @@
 		"assistedservicestorefront",
 		"assistedservicewebservices",
 		"assistedservicepromotionaddon",
-		"promotionengineatddtests",
-		"textfieldconfiguratortemplateatddtests",
 		"pcmbackofficesamplesaddon"
     ],
     "storefrontAddons" : [

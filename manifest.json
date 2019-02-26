@@ -54,7 +54,9 @@
 		"assistedservicestorefront",
 		"assistedservicewebservices",
 		"assistedservicepromotionaddon",
-		"pcmbackofficesamplesaddon"
+		"pcmbackofficesamplesaddon",
+		"datahubadapter",
+        "datahubbackoffice"
     ],
     "storefrontAddons" : [
 		{
@@ -120,17 +122,24 @@
     ],
     "properties": [
         {
-            "key": "test.property.1",
-            "value": "test.property.1.value"
+            "key": "datahub.backoffice.rest.client.username",
+            "value": "admin"
         },
         {
-            "key": "test.property.2",
-            "value": "test.property.2.value"
+            "key": "datahub.backoffice.rest.client.password",
+            "value": "nimda"
         },
         {
-            "key": "test.property.2",
-            "value": "test.property.2.value.in.prod.only",
-            "persona": "production"
+            "key": "datahubadapter.datahuboutbound.url",
+            "value": "http://datahub:8080/datahub-webapp/v1"
+        },
+        {
+            "key": "datahubadapter.datahuboutbound.user",
+            "value": "admin"
+        },
+        {
+            "key": "datahubadapter.datahuboutbound.password",
+            "value": "nimda"
         }
     ],
     "aspects": [

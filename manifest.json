@@ -56,7 +56,23 @@
 		"assistedservicepromotionaddon",
 		"pcmbackofficesamplesaddon",
 		"datahubadapter",
-        "datahubbackoffice"
+		"secureportaladdon",
+		"datahubbackoffice",
+		"sapcoreaddon",
+		"sapcoreconfigurationbackoffice",	
+		"sapmodelbackoffice",
+		"sapcustomerb2bbackoffice",
+		"b2bsappricing",
+		"sappricingbackoffice",	
+		"ysaporderfulfillment",
+		"saporderexchangeb2b",
+		"saporderexchangebackoffice",
+		"ysapordermgmtb2baddon",
+		"sapordermgmtbackoffice",
+		"b2bsapproductavailability",
+		"sapproductavailabilitybackoffice",
+		"sapcreditcheckbackoffice",
+		"sapcoretest"
     ],
     "storefrontAddons" : [
 		{
@@ -279,6 +295,14 @@
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
+                },
+				{
+                    "name": "datahubadapter",
+                    "contextPath": "/datahubadapter"
+                },
+				{
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
                 }
             ]
         }

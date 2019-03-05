@@ -1,7 +1,7 @@
 {
    "commerceSuiteVersion": "1811.0",
    "extensions": [
-   	 "mcc",
+       "mcc",
        "backoffice",
        "platformbackoffice",
        "basecommercebackoffice",  

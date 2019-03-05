@@ -60,79 +60,10 @@
    ],
    "storefrontAddons" : [
         {
-            "addon": "adaptivesearchsamplesaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
             "addon": "acceleratorwebservicesaddon",
             "storefront": "ycommercewebservices",
             "template": "ycommercewebservices"
-        },
-        {
-            "addon": "orderselfserviceaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "customerticketingaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "commerceorgsamplesaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "promotionenginesamplesaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "smarteditaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "multicountrysampledataaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "textfieldconfiguratortemplateaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "assistedservicepromotionaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "pcmbackofficesamplesaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "personalizationsearchsamplesaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "assistedservicestorefront",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-
-        },
-        {
-            "addon": "sapcoreaddon",
-            "storefront": "customsitestorefront",
-            "template": "yacceleratorstorefront"
-
         }        
-
-        
     ],
    "properties": [
         {

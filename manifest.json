@@ -4,7 +4,16 @@
         "modeltacceleratorservices",
         "electronicsstore",
         "yacceleratorstorefront",
-        "backoffice"
+        "backoffice",
+	"platformbackoffice",
+	"basecommercebackoffice",
+       "adaptivesearchbackoffice",
+       "commerceservicesbackoffice",
+       "solrfacetsearchbackoffice",
+       "customersupportbackoffice",
+       "rulebuilderbackoffice",
+       "couponbackoffice",
+       "cmsbackoffice"
     ],
     "properties": [
         {
@@ -48,7 +57,7 @@
                 },
                 {
                     "name": "backoffice",
-                    "contextPath": ""
+                    "contextPath": "/backoffice"
                 }
             ]
         },

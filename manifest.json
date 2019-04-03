@@ -94,6 +94,10 @@
                     "name": "yacceleratorstorefront",
                     "contextPath": ""
                 },
+		{
+                    "name": "hac",
+                    "contextPath": "/hac"
+                },
                 {
                     "name": "acceleratorservices",
                     "contextPath": "/acceleratorservices"

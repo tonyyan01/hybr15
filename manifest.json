@@ -108,9 +108,31 @@
         {
             "name": "backgroundProcessing",
             "properties": [
+                {
+                    "key": "impex.import.workers",
+                    "value": "4"
+                },
+                {
+                    "key": "catalog.sync.workers",
+                    "value":"4"
+                },
 		{
                     "key": "cluster.node.groups",
                     "value": "integration,yHotfolderCandidate"
+                },
+                {
+                  "key":"azure.hotfolder.storage.account.name",
+                  "value":"7dt9kzuuo3sfhbsdrpyi0fk",
+                  "persona":"development",
+                  "secret":true
+                },
+                {
+                    "key": "cloud.hotfolder.default.mapping.header.catalog",
+                    "value": "connectProductCatalog"
+                },
+                {
+                    "key": "cloud.hotfolder.default.mapping.root.dir",
+                    "value": "connect"
                 }
 	    ],
             "webapps": [

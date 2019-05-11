@@ -58,6 +58,7 @@
 	"rulebuilderbackoffice",
 	"couponbackoffice",
 	"azurecloudhotfolder",
+	"pcmbackofficesamplesaddon",
 	"cmsbackoffice"
     ],
     "storefrontAddons": [

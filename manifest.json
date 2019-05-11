@@ -2,19 +2,141 @@
     "commerceSuiteVersion": "1811.5",
     "extensions": [
         "modeltacceleratorservices",
+	"adaptivesearchsolr",
+	"adaptivesearchbackoffice",
+	"adaptivesearchsamplesaddon",
+	"adaptivesearchwebservices",
+	"yacceleratorcockpits",
+	"yacceleratorinitialdata",
+	"yacceleratorfulfilmentprocess",
+	"ycommercewebservices",
+	"acceleratorwebservicesaddon",
+	"orderselfserviceaddon",
+	"customerticketingaddon",
+	"commerceorgsamplesaddon",
+	"droolsruleengineservices",
+	"couponfacades",
+	"promotionenginesamplesaddon",
+	"cmswebservices",
+	"smarteditwebservices",
+	"cmssmarteditwebservices",
+	"permissionswebservices",
+	"smarteditaddon",
+	"smartedit",
+	"cmssmartedit",
+	"cmsbackoffice",
+	"cmsmulticountrycockpit",
+	"multicountrysampledataaddon",
+	"cmsoccaddon",
+	"previewpersonalizationweb",
+	"personalizationcmsweb",
+	"personalizationsmartedit",
+	"personalizationpromotionssmartedit",
+	"personalizationsampledataaddon",
+	"personalizationpromotions",
+	"personalizationpromotionsweb",
+	"personalizationservicesbackoffice",
+	"personalizationpromotionsbackoffice",
+	"personalizationcmsbackoffice",
+	"personalizationsearchbackoffice",
+	"personalizationsearchsmartedit",
+	"personalizationsearchweb",
+	"personalizationsearchsamplesaddon",
+	"textfieldconfiguratortemplatebackoffice",
+	"textfieldconfiguratortemplateaddon",
+	"assistedservicestorefront",
+	"assistedservicewebservices",
+	"assistedservicepromotionaddon",
         "electronicsstore",
         "yacceleratorstorefront",
         "backoffice",
 	"platformbackoffice",
 	"basecommercebackoffice",
-       "adaptivesearchbackoffice",
-       "commerceservicesbackoffice",
-       "solrfacetsearchbackoffice",
-       "customersupportbackoffice",
-       "rulebuilderbackoffice",
-       "couponbackoffice",
-       "azurecloudhotfolder",
-       "cmsbackoffice"
+	"adaptivesearchbackoffice",
+	"commerceservicesbackoffice",
+	"solrfacetsearchbackoffice",
+	"customersupportbackoffice",
+	"rulebuilderbackoffice",
+	"couponbackoffice",
+	"azurecloudhotfolder",
+	"cmsbackoffice"
+    ],
+    "storefrontAddons": [
+    	{
+    	    "addon": "commerceorgsamplesaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "promotionenginesamplesaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "smarteditaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "textfieldconfiguratortemplateaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "assistedservicestorefront",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "assistedservicepromotionaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "customerticketingaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "orderselfserviceaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "adaptivesearchsamplesaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "multicountrysampledataaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "pcmbackofficesamplesaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "personalizationsearchsamplesaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "acceleratorwebservicesaddon",
+    	    "storefront": "ycommercewebservices",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "profiletagaddon",
+    	    "storefront": "yacceleratorstorefront",
+    	    "template": "yacceleratorstorefront"
+    	},
+    	{
+    	    "addon": "cmsoccaddon",
+    	    "storefront": "ycommercewebservices",
+    	    "template": "ycommercewebservices"
+    	}
     ],
     "properties": [
         {
@@ -37,7 +159,7 @@
         {
             "name": "backoffice",
             "properties": [
-				{
+		{
                     "key": "test.property.1",
                     "value": "test.property-1-value-prod-backoffice",
                     "persona": "production"
@@ -45,6 +167,18 @@
                 {
                     "key": "test.property.2",
                     "value": "test.property-2-value-backoffice"
+                },
+		{
+                    "key":"website.electronics.http",
+                    "value":"http://accstorefront.cfc5lg-fenghudev1-d1-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key":"website.electronics.https",
+                    "value":"https://accstorefront.cfc5lg-fenghudev1-d1-public.model-t.cc.commerce.ondemand.com"
+                },
+                {
+                    "key":"xss.filter.header.X-Frame-Options",
+                    "value":""
                 }
             ],
             "webapps": [
@@ -59,6 +193,66 @@
                 {
                     "name": "backoffice",
                     "contextPath": ""
+                }, 
+		{
+                    "name": "acceleratorservices",
+                    "contextPath": "/acceleratorservices"
+                },
+                {
+                    "name": "ycommercewebservices",
+                    "contextPath": "/rest"
+                },
+                {
+                    "name": "smartedit",
+                    "contextPath": "/smartedit"
+                },
+                {
+                    "name": "cmssmartedit",
+                    "contextPath": "/cmssmartedit"
+                },
+                {
+                    "name": "smarteditwebservices",
+                    "contextPath": "/smarteditwebservices"
+                },
+                {
+                    "name": "cmssmarteditwebservices",
+                    "contextPath": "/cmssmarteditwebservices"
+                },
+                {
+                    "name": "personalizationsmartedit",
+                    "contextPath": "/personalizationsmartedit"
+                },
+                {
+                    "name": "personalizationpromotionssmartedit",
+                    "contextPath": "/personalizationpromotionssmartedit"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
+                },
+                {
+                    "name": "cmswebservices",
+                    "contextPath": "/cmswebservices"
+                },
+                {
+                    "name": "permissionswebservices",
+                    "contextPath": "/permissionswebservices"
+                },
+                {
+                    "name": "previewwebservices",
+                    "contextPath": "/previewwebservices"
+                },
+                {
+                    "name": "personalizationwebservices",
+                    "contextPath": "/personalizationwebservices"
+                },
+                {
+                    "name": "personalizationsearchsmartedit",
+                    "contextPath": "/personalizationsearchsmartedit"
+                },
+                {
+                    "name": "adaptivesearchwebservices",
+                    "contextPath": "/adaptivesearchwebservices"
                 }
             ]
         },

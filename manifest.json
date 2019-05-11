@@ -128,11 +128,6 @@
     	    "template": "yacceleratorstorefront"
     	},
     	{
-    	    "addon": "profiletagaddon",
-    	    "storefront": "yacceleratorstorefront",
-    	    "template": "yacceleratorstorefront"
-    	},
-    	{
     	    "addon": "cmsoccaddon",
     	    "storefront": "ycommercewebservices",
     	    "template": "ycommercewebservices"

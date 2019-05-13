@@ -248,6 +248,10 @@
 		{
 		    "name": "yacceleratorstorefront",
 		    "contextPath": "/yacceleratorstorefront"
+		},
+		{
+		    "name": "acceleratorservices",
+		    "contextPath": "/acceleratorservices"
 		}
             ]
         },
@@ -295,6 +299,14 @@
                 {
                     "name": "acceleratorservices",
                     "contextPath": "/acceleratorservices"
+                },
+                {
+                    "name": "ycommercewebservices",
+                    "contextPath": "/rest"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
                 }
             ]
         },

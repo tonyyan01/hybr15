@@ -1,7 +1,7 @@
 {
     "commerceSuiteVersion": "1811.5",
     "extensions": [
-        "yacceleratorstorefront"
+        "yacceleratorstorefront",
         "adaptivesearchbackoffice",
         "adaptivesearchsamplesaddon",
         "adaptivesearchwebservices",

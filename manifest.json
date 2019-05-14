@@ -13,7 +13,6 @@
         "acceleratorwebservicesaddon",
         "b2bacceleratoraddon",
         "commerceorgaddon",
-        "commerceorgsamplesaddon",
         "customersupportbackoffice",
         "customerticketingaddon",
         "rulebuilderbackoffice",
@@ -78,11 +77,6 @@
         ]
     },
     "storefrontAddons": [
-        {
-            "addon": "commerceorgsamplesaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
         {
             "addon": "promotionenginesamplesaddon",
             "storefront": "yacceleratorstorefront",

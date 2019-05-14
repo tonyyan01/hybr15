@@ -2,6 +2,7 @@
     "commerceSuiteVersion": "1811.5",
     "extensions": [
         "yacceleratorstorefront",
+        "commerceorgsamplesaddon",
         "adaptivesearchbackoffice",
         "adaptivesearchsamplesaddon",
         "adaptivesearchwebservices",
@@ -65,21 +66,59 @@
         "sapproductavailabilitybackoffice",           
         "sapcoretest"
     ],
-    "useConfig": {
-        "properties": [
-            {
-                "location": "/config/cloud-development/local.properties",
-                "persona": "development"
-            },
-            {
-                "location": "/config/cloud-staging/local.properties",
-                "persona": "staging"
-            }
-        ]
-    },
     "storefrontAddons": [
         {
+            "addon": "commerceorgsamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "promotionenginesamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
             "addon": "smarteditaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "textfieldconfiguratortemplateaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "customerticketingaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "orderselfserviceaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "adaptivesearchsamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "pcmbackofficesamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationsearchsamplesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "sapcoreaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
         }

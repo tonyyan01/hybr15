@@ -75,10 +75,7 @@
                 "location": "/config/cloud-staging/local.properties",
                 "persona": "staging"
             }
-        ],
-        "extensions": {
-            "location": "/config/cloud-development/localextensions.xml"
-        }
+        ]
     },
     "storefrontAddons": [
         {
